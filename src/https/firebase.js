@@ -2,16 +2,17 @@ import { initializeApp } from 'firebase/app';
 // import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCxcBp4tBOR-AyZFWb4UIyw-X8O8z7C3CE",
-  authDomain: "novena--consult.firebaseapp.com",
-  projectId: "novena--consult",
-  storageBucket: "novena--consult.appspot.com",
-  messagingSenderId: "672710719018",
-  appId: "1:672710719018:web:3da27851580c055444b553",
-  measurementId: "G-41SYT8B7DX"
+  apiKey: "AIzaSyBHU0ObNr9dnYWOOktu-UTLxtDSodT64DU",
+  authDomain: "landing-page-dd637.firebaseapp.com",
+  projectId: "landing-page-dd637",
+  storageBucket: "landing-page-dd637.appspot.com",
+  messagingSenderId: "1076255217354",
+  appId: "1:1076255217354:web:50672d50e7d024d8374633",
+  measurementId: "G-JVJREZBGTM"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
 // const db = getFirestore(firebaseApp);
 
 export default firebaseApp;
+
