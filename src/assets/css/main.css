@@ -1,0 +1,103 @@
+@import "../base.css";
+@import "./custom.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p {
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply mb-0
+}
+select {
+  @apply bg-transparent;
+}
+@layer base {
+  body {
+    font-family: 'Source Sans 3', sans-serif;
+  }
+}
+
+.container {
+  /* max-width: 1359px; */
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 86%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 98%;
+  }
+}
+
+@layer utilities {
+  .tick {
+    display: inline-block;
+    width: 1.55rem;
+    height: 0.5rem;
+    border: 2px solid currentColor;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    margin-right: 0.25rem;
+  }
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+input[type='checkbox'] {
+  accent-color: #2f929c;
+}
+
+input[type='radio'] {
+  accent-color: var(---primary-700);
+}
