@@ -6,7 +6,6 @@ import firebaseApp from '@/https/firebase' // Import your Firebase configuration
 const firestore = getFirestore(firebaseApp)
 
 
-
 const setupGlobalProperties = (app) => {
   app.config.globalProperties.$firestore = firestore
   app.config.globalProperties.$getDocs = getDocs
