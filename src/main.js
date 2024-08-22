@@ -3,6 +3,9 @@ import { createApp } from 'vue'
 
 import App from './App.vue'
 
+import 'primeflex/primeflex.css';
+import 'primeicons/primeicons.css'
+
 // Import Separate Configuration
 import registerComponents from './plugins/appGlobalComponents'
 import setupGlobalProperties from './plugins/appGlobalProperties'
