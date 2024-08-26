@@ -60,6 +60,11 @@ import TabPanel from 'primevue/tabpanel';
 
 import Editor from 'primevue/editor';
 import Menubar from 'primevue/menubar';
+import InputText from 'primevue/inputtext';
+import Avatar from 'primevue/avatar';
+import Badge from 'primevue/badge';
+import Button from 'primevue/button';
+
 
 import Carousel from 'primevue/carousel';
 import Galleria from 'primevue/galleria';
@@ -80,7 +85,8 @@ export default function registerComponents(app) {
     app.component('Panel', Panel)
     app.component('Card', Card)
     app.component('Divider', Divider)
-    app.component('p-Fieldset', Fieldset)
+    // eslint-disable-next-line vue/no-reserved-component-names
+    app.component('Fieldset', Fieldset)
     app.component('TabView', TabView)
     app.component('TabPanel', TabPanel)
     app.component('Editor', Editor)
@@ -88,4 +94,9 @@ export default function registerComponents(app) {
     app.component('Carousel', Carousel)
     app.component('Galleria', Galleria)
     app.component('Skeleton', Skeleton)
+    app.component('InputText', InputText)
+    app.component('Avatar', Avatar)
+    app.component('Badge', Badge)
+    // eslint-disable-next-line vue/no-reserved-component-names
+    app.component('Button', Button)
 }
