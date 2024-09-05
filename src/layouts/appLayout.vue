@@ -1,9 +1,21 @@
 <template>
-    <slot />
+    <component :is="layout">
+      <slot />
+    </component>
   </template>
-  
-  <script>
-  export default {};
-  </script>
-  
-  <style></style>
+
+<script>
+const defaultLayout = 'AppDefaultLayout'
+export default {
+  name: 'AppLayout',
+  computed: {
+    layout () {
+      const layout = this.$route.meta.layout || defaultLayout
+      return () => import(`@/layouts/${layout}.vue`)
+    }
+  }
+}
+</script>
+
+    <style>
+  </style>

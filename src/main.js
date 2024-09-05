@@ -1,25 +1,24 @@
-import './assets/css/main.css'
-import { createApp } from 'vue'
-
+import Vue from 'vue'
 import App from './App.vue'
+import router from './router'
+import store from './store'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+import firebase from './firebase'
 
-import 'primeflex/primeflex.css';
-import 'primeicons/primeicons.css'
+Vue.use(BootstrapVue)
+Vue.use(IconsPlugin)
+Vue.use(firebase)
 
-// Import Separate Configuration
-import registerComponents from './plugins/appGlobalComponents'
-import setupGlobalProperties from './plugins/appGlobalProperties'
-import registerPlugins from './plugins/appGlobalPlugins'
+Vue.config.productionTip = false
 
-const app = createApp(App)
+new Vue({
+  router,
+  store,
+  render: h => h(App)
+}).$mount('#app')
 
-// Register plugins
-registerPlugins(app)
-
-// Register global components
-registerComponents(app)
-
-// Register Global properties
-setupGlobalProperties(app)
-
-app.mount('#app')
+router.afterEach((to) => {
+  document.title = to.meta.title || 'GDG Ikot-Ekpene'
+})
