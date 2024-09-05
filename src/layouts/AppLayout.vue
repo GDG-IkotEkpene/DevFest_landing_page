@@ -1,8 +1,8 @@
 <template>
-    <component :is="layout">
-      <slot />
-    </component>
-  </template>
+  <component :is="layout">
+    <slot />
+  </component>
+</template>
 
 <script>
 const defaultLayout = 'AppDefaultLayout'
@@ -17,5 +17,4 @@ export default {
 }
 </script>
 
-    <style>
-  </style>
+<style></style>
