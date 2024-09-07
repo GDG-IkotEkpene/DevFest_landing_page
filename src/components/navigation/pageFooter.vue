@@ -77,7 +77,7 @@ export default {
 <style lang="scss" scoped>
 .cover {
   background: #021c5c;
-  opacity: 0.7;
+  // opacity: 0.7;
   backdrop-filter: blur(5px);
   padding-top: 48px;
 }
