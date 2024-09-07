@@ -2,16 +2,31 @@
   <div>
     <heroSection/>
     <sliderComponent/>
+    <aboutUs/>
+    <eventSection/>
+    <photoGallery/>
+    <teamSection/>
+    <partnersSection/>
   </div>
 </template>
 
 <script>
-import heroSection from '../components/heroSection.vue'
-import sliderComponent from '../components/sliderComponent.vue'
+import heroSection from '../components/homePage/heroSection.vue'
+import sliderComponent from '../components/homePage/sliderComponent.vue'
+import aboutUs from '../components/homePage/aboutUs.vue'
+import eventSection from '../components/homePage/eventSection.vue'
+import photoGallery from '../components/homePage/photoGallery.vue'
+import teamSection from '../components/homePage/teamSection.vue'
+import partnersSection from '../components/homePage/partnersSection.vue'
 export default {
   components: {
     heroSection,
-    sliderComponent
+    sliderComponent,
+    aboutUs,
+    eventSection,
+    photoGallery,
+    teamSection,
+    partnersSection
   }
 }
 </script>
