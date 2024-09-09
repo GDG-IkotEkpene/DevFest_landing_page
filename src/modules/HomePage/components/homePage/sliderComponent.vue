@@ -1,6 +1,6 @@
 <template>
   <div>
-    slider
+    sliders
   </div>
 </template>
 
