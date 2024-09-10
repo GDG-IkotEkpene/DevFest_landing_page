@@ -1,6 +1,6 @@
 <template>
   <div>
-    event section
+    event sections
   </div>
 </template>
 
