@@ -20,8 +20,7 @@
             <div class="hoverCo ">
               <img :src="member.image" class="card-img-top img-hover" :alt="member.name" />
               <div class="hoverCon">
-                <p>Google Developers Club</p>
-                <p>Ikot Ekepene</p>
+                <img src="@/assets/images/hoverLogo.png" alt="" class="img-fluid">
               </div>
             </div>
             <div class="card-body d-flex align-items-center justify-content-between">
@@ -30,7 +29,9 @@
                 <p class=" fs-15">{{ member.role }}</p>
               </div>
               <div>
+               <a :href="member.linkedinUrl" target="_blank" rel="noopener noreferrer">
                 <img src="../../../../assets//images/linkdin.png" height="20px" width="20px" alt="" srcset="">
+               </a>
               </div>
             </div>
           </div>
@@ -49,42 +50,50 @@ export default {
         {
           name: 'Mfonido Mark',
           role: 'Team Lead',
-          image: 'https://th.bing.com/th/id/OIP.vS2ZAsOnKwYkqw1t1_QzwQHaG9?w=204&h=193&c=7&r=0&o=5&pid=1.7'
+          image: require('../../../../../public/chapterLeadsImgs/mfon-ido.png'),
+          linkedinUrl: 'https://www.linkedin.com/in/mfonido-mark-4baa42120'
         },
         {
           name: 'Chibugo Illoh',
           role: 'Program Manager',
-          image: 'https://th.bing.com/th/id/OIP.vS2ZAsOnKwYkqw1t1_QzwQHaG9?w=204&h=193&c=7&r=0&o=5&pid=1.7'
+          image: require('../../../../../public/chapterLeadsImgs/chibugo.png'),
+          linkedinUrl: 'https://www.linkedin.com/in/chibugo-illoh2807'
         },
         {
           name: 'Emmanuel Michael',
           role: 'Community Moderator',
-          image: 'https://th.bing.com/th/id/OIP.vS2ZAsOnKwYkqw1t1_QzwQHaG9?w=204&h=193&c=7&r=0&o=5&pid=1.7'
+          image: require('../../../../../public/chapterLeadsImgs/emmanuel.png'),
+          linkedinUrl: 'https://www.linkedin.com/in/emmanuel-michael'
         },
         {
           name: 'Godwin Jonathan',
           role: 'Social Media Manager',
-          image: 'https://th.bing.com/th/id/OIP.vS2ZAsOnKwYkqw1t1_QzwQHaG9?w=204&h=193&c=7&r=0&o=5&pid=1.7'
+          image: require('../../../../../public/chapterLeadsImgs/godwinJonathan.png'),
+          linkedinUrl: 'https://www.linkedin.com/in/godwin-jonathan-1a890a168'
         },
         {
           name: 'Godwin Bassey',
           role: 'Design Lead',
-          image: 'https://th.bing.com/th/id/OIP.vS2ZAsOnKwYkqw1t1_QzwQHaG9?w=204&h=193&c=7&r=0&o=5&pid=1.7'
+          image: require('../../../../../public/chapterLeadsImgs/godwinBassey.png'),
+          linkedinUrl: ''
         },
         {
           name: 'Victoria Sampson',
           role: 'Co-Lead WTM GDG Ikot Ekpene',
-          image: 'https://th.bing.com/th/id/OIP.vS2ZAsOnKwYkqw1t1_QzwQHaG9?w=204&h=193&c=7&r=0&o=5&pid=1.7'
+          image: require('../../../../../public/chapterLeadsImgs/victoria.png'),
+          linkedinUrl: 'https://www.linkedin.com/in/victoria-sampson-057aa616b?trk=contact-info'
         },
         {
           name: 'Peter Ime',
           role: 'Community Moderator',
-          image: 'https://th.bing.com/th/id/OIP.vS2ZAsOnKwYkqw1t1_QzwQHaG9?w=204&h=193&c=7&r=0&o=5&pid=1.7'
+          image: require('../../../../../public/chapterLeadsImgs/peter.png'),
+          linkedinUrl: 'https://www.linkedin.com/in/peter-ime-bbb18719b'
         },
         {
           name: 'Happiness Adam',
           role: 'Community Moderator',
-          image: 'https://th.bing.com/th/id/OIP.vS2ZAsOnKwYkqw1t1_QzwQHaG9?w=204&h=193&c=7&r=0&o=5&pid=1.7'
+          image: require('../../../../../public/chapterLeadsImgs/hapiness.png'),
+          linkedinUrl: 'https://www.linkedin.com/in/pinessjw-adam'
         }
       ]
     }
@@ -130,7 +139,7 @@ background-size: cover;
       height: 100%;
       top: 0;
       opacity: 0.2;
-      p {
+      img {
         visibility: hidden;
       }
     }
@@ -139,7 +148,7 @@ background-size: cover;
     opacity: 0.8;
     visibility: visible;
     cursor: pointer;
-    p {
+    img {
       visibility: visible;
     }
   }
