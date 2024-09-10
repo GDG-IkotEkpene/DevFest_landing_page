@@ -1,6 +1,6 @@
 <template>
     <div class="main">
-      <pageHeader />
+      <pageHeader  />
       <slot />
       <pageFooter />
     </div>
@@ -26,7 +26,7 @@ export default {
   background-image: url('/src/assets/images/background.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
   </style>

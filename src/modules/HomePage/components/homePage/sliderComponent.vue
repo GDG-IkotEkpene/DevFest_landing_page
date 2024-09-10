@@ -1,6 +1,6 @@
 <template>
   <div>
-    hero section
+    sliders
   </div>
 </template>
 
