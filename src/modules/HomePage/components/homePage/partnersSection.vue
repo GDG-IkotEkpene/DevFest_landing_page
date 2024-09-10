@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container ">
     <h3 class="text-uppercase text-white">Partners</h3>
     <div class="py-4">
       <div class="row text-center">
