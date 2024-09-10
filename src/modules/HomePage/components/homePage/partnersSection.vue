@@ -2,8 +2,8 @@
   <div class="container">
     <h3 class="text-uppercase text-white">Partners</h3>
     <div class="py-4">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-3 mb-md-1 mb-lg-0">
+      <div class="row text-center">
+        <div class="col-sm my-4">
           <a href="https://www.remita.net" target="_blank">
             <img
               src="../../../../assets/images/partners/remita.svg"
@@ -12,7 +12,7 @@
             />
           </a>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-3 mb-md-1 mb-lg-0">
+        <div class="col-sm my-4">
           <a href="https://whogohost.ng/" target="_blank">
             <img
               src="../../../../assets/images/partners/whogohost.svg"
@@ -21,7 +21,7 @@
             />
           </a>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-3 mb-md-1 mb-lg-0">
+        <div class="col-sm my-4">
           <a href="https://www.propel.community/" target="_blank">
             <img
               src="../../../../assets/images/partners/propel.svg"
@@ -30,7 +30,7 @@
             />
           </a>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-md-1 mb-lg-0">
+        <div class="col-sm my-4">
           <a href="#" target="_blank">
             <img
               src="../../../../assets/images/partners/osca.svg"
