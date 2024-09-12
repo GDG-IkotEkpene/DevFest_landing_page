@@ -7926,6 +7926,11 @@ vue-loader@^17.0.0:
     hash-sum "^2.0.0"
     watchpack "^2.4.0"
 
+vue-marquee-slider@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/vue-marquee-slider/-/vue-marquee-slider-1.0.6.tgz#776aa884cdc4af36da773f2109402bfa6d7a8a80"
+  integrity sha512-0ar9QpMtx8M5Zu4ih10b+zeHaLXxjv3qztjgM2LtG5gnfeo+HnBeDED7HqmAZba0qup5chdIcVtDW4kVGgAa1g==
+
 vue-router@^3.5.1:
   version "3.6.5"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.6.5.tgz#95847d52b9a7e3f1361cb605c8e6441f202afad8"
