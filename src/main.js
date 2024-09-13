@@ -6,11 +6,13 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import VueMarqueeSlider from 'vue-marquee-slider'
 import firebase from './firebase'
 
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 Vue.use(firebase)
+Vue.use(VueMarqueeSlider)
 
 Vue.config.productionTip = false
 
