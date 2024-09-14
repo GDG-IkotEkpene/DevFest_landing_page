@@ -1,7 +1,6 @@
 <template>
   <div>
     <heroSection/>
-    <sliderComponent/>
     <aboutUs/>
     <eventSection/>
     <photoGallery/>
@@ -12,7 +11,6 @@
 
 <script>
 import heroSection from '../components/homePage/heroSection.vue'
-import sliderComponent from '../components/homePage/sliderComponent.vue'
 import aboutUs from '../components/homePage/aboutUs.vue'
 import eventSection from '../components/homePage/eventSection.vue'
 import photoGallery from '../components/homePage/photoGallery.vue'
@@ -21,7 +19,6 @@ import partnersSection from '../components/homePage/partnersSection.vue'
 export default {
   components: {
     heroSection,
-    sliderComponent,
     aboutUs,
     eventSection,
     photoGallery,

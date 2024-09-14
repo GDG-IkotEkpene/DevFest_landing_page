@@ -1,6 +1,6 @@
 <template>
-  <div class="container my-4">
-    <section>
+  <div class="container my-5">
+    <section class="py-5">
       <div class="text-white" >
         <h3 class="text-uppercase fw-400 fs-4 mb-3">about</h3>
         <p class="mb-4 col-sm-6 col-md-11 fw-500">

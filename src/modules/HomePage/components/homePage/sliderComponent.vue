@@ -1,6 +1,6 @@
 <template>
   <div>
-    <vue-marquee-slider class="py-5 slider" id="marquee-slider" :speed="50000" :width="70">
+    <vue-marquee-slider class="py-5 slider" id="marquee-slider" :speed="50000" :width="60">
       <div v-for="(image, index) in images" :key="index" class="image-container">
         <img :src="image.url" />
       </div>

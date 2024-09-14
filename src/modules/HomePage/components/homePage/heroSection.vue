@@ -23,17 +23,25 @@
         </div>
       </div>
     </section>
+    <sliderComponent class="my-5"/>
   </div>
 </template>
 
 <script>
-export default {}
+import sliderComponent from '../homePage/sliderComponent.vue'
+export default {
+  components: {
+    sliderComponent
+  }
+}
 </script>
 
 <style lang="scss" scoped>
 @import url('https://fonts.cdnfonts.com/css/harmonyos-sans');
 
 .container{
+  margin-top: 80px;
+  margin-bottom: 100px;
   .sub-text{
     letter-spacing: 0.2em;
     font-weight: 400;
