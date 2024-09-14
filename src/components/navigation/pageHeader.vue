@@ -53,13 +53,10 @@ export default {}
 
 <style lang="scss" scoped>
 header {
-  // color: white !important;
-  // border: 2px solid white;
   & nav {
     border: 2px solid #1B49BB;
     background: rgba(4, 8, 18, 0.8);
     backdrop-filter: blur(2px);
-    padding: 20px;
     .container-fluid {
       .navbar-brand {
         margin: 0;
