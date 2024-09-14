@@ -23,10 +23,10 @@ export default {
 
   <style scoped>
 .main {
-  background-image: url('/src/assets/images/background.svg');
+  background-image: linear-gradient(rgb(10,10,10,0.8),rgb(10,10,10,0.8),rgb(10,10,10,0.8)), url('/src/assets/images/heroBg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 100vh;
     width: 100%;
 }
   </style>
