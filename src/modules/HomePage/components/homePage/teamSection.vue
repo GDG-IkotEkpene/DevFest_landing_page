@@ -103,9 +103,6 @@ export default {
 
 <style lang="scss" scoped>
 section {
-background: url("../../../../assets/images/background.svg");
-background-repeat: no-repeat;
-background-size: cover;
 .con-title {
   margin-top: 150px
 }
